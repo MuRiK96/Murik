@@ -1,3 +1,4 @@
+# task6
 # from os import strerror
 # try:
 #     with open('C:/Users/7/Documents/GitHub/Murik/poki/content1.txt') as file:
@@ -18,3 +19,23 @@
 #     print(f'фаил так и не открылся {strerror(err.errno)}')
 
 
+# task5
+# with open('C:/Users/7/Documents/GitHub/Murik/poki/content1.txt') as file:
+#         text = file.read()
+
+# word_s = input('введите слово для подсчета ')
+# word_n = text.count(word_s)
+
+# print(f'в тексте слово {word_s} есть {word_n} раз')
+
+# task4
+# from os import strerror
+# try:
+#     with open('C:/Users/7/Documents/GitHub/Murik/poki/content1.txt') as file:
+#         max_l = 0
+#         for i in file:
+#             if len(i) > max_l:
+#                 max_l = len(i)
+#         print(max_l)
+# except IOError as err:
+#     print(f'фаил не открылся{strerror(err.errno)}')
